@@ -18,7 +18,6 @@ The work reflects my broader research interest in **precision oncology**, **func
 ## Limitation and Disclaimer
 
 Certain clinically important breast cancer genes (e.g., **BRCA1**, **TP53**) were partially missing or incomplete in the dataset. For example, while `mu_TP53` and `rs_BRCA2` were available, `rs_BRCA1` was absent. This does not diminish the methodology’s validity as a **pipeline for molecular feature discovery and explainable modeling**.
----
 
 ##  Dataset Description
 
@@ -85,7 +84,7 @@ Certain clinically important breast cancer genes (e.g., **BRCA1**, **TP53**) wer
 
 ---
 
-## 🔍 Model Performance
+## Model Performance
 - **Best Model**: Tuned XGBoost
 - **Metrics**:
   - Accuracy: 0.89
@@ -94,7 +93,7 @@ Certain clinically important breast cancer genes (e.g., **BRCA1**, **TP53**) wer
 
 ---
 
-## ⚙️ Installation and Usage
+## Installation and Usage
 
 ### Prerequisites
 - Python 3.8+
@@ -126,7 +125,7 @@ All figures and the trained model (`survival_outcome_model.pkl`) will be saved t
 
 ---
 
-## 📚 References
+##  References
 
 - [XGBoost Documentation](https://xgboost.readthedocs.io/)
 - [SHAP for Explainable AI](https://shap.readthedocs.io/en/latest/)
